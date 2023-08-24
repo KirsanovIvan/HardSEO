@@ -1,1 +1,2 @@
-Redirect301 https://kirsanovivan.github.io/HardSEO/page1.html https://kirsanovivan.github.io/HardSEO/page3.html
+    RewriteCond %{REQUEST_URI} ^/page1.html/$
+    RewriteRule ^.*$ https://kirsanovivan.github.io/HardSEO/page3.html/? [R=301,L]
