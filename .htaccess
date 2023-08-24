@@ -1,3 +1,3 @@
-RewriteEngine On
-
-Redirect 301 https://kirsanovivan.github.io/HardSEO/page1.html	https://kirsanovivan.github.io/HardSEO/page3.html
+location /page1.html/ {
+  return 301 /page3.html/$is_args$args;
+}
