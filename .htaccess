@@ -1,0 +1,3 @@
+RewriteEngine On
+
+Redirect 301 /page1.html	https://kirsanovivan.github.io/HardSEO/page3.html
